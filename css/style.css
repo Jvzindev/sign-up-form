@@ -158,3 +158,23 @@ main {
         margin-left: -35px;
     }
 }
+@media (min-width: 425px) and (max-width: 450px){
+    main {
+        justify-content: center;
+        align-items: center;
+    }
+    #form-container .form {
+        width: 390px;
+    }
+    #form-container .form input[type="text"],
+    .form input[type="email"],
+    .form input[type="password"]{
+        width: 290px;
+    }
+    #form-container .form input[type="submit"] {
+        width: 320px;
+    }
+    .form .paragraphy {
+        font-size: 9px;
+    }
+}
